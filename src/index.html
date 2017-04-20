@@ -5,22 +5,32 @@
     <base href="/">
     <meta charset="utf-8">
 
-    
+
     <title>angular 1.6 workshop</title>
     <meta name="description" content="">
-    
+
 </head>
 
-<body ng-app="app" >
- <!--<mi-component></mi-component>    -->
-<hello-world></hello-world>
-    
+<body ng-app="app">
+    <!--<mi-component></mi-component>    -->
+    <!--<hello-world></hello-world>
+<otro-componente></otro-componente>-->
+    <hello-world></hello-world>
+    <planets-component></planets-component>
+    <coso nombre-coso="Y tu mas"></coso>
+
     <!-- angular -->
     <script src="vendor/angular.min.js"></script>
-    <script src="app/app.js"></script>
-    <script src="app/components/hello-world.js"></script>
 
-    <script>
+
+    <script src="app/app.js"></script>
+
+    <script src="app/components/hello-world.js"></script>
+    <script src="app/components/planets-component.js"></script>
+    <script src="app/components/new-component.js"></script>
+    <script src="app/components/coso.js"></script>
+
+    <!--<script>
         
         //  angular.module('app', []);
 
@@ -32,7 +42,7 @@
               template: '<div><h2>MI TITULO</h2></div>' 
            });*/
     </script>
-  
+  -->
 
 </body>
 

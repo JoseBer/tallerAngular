@@ -1,0 +1,16 @@
+<article>
+    <!--{{$ctrl.foo}}-->
+    <new-component foo="'que pongo'" bar="'ohhh la la'"></new-component>
+
+    <ul>
+        <li ng-repeat="item in pepito.solarSystem" ng-click="pepito.removePlanet(item.id)">
+            {{item.id}}
+             {{item.name}}
+        </li>
+    </ul>
+
+    <button ng-click="pepito.addPlanet()">Añadir Planeta</button>
+
+
+
+</article>
