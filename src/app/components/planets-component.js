@@ -28,7 +28,7 @@ angular.module('app').component('planetsComponent', {
         var i=0;
         for(;i<len;i++){
           if (idPlanet === vm.solarSystem[i].id){
-               vm.solarSystem[i].splice(i,1);
+               vm.solarSystem.splice(i,1);
                break;
             }
 
